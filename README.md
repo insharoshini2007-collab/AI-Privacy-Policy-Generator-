@@ -1,20 +1,115 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+#  AI Privacy Policy & Terms Generator
 
-# Run and deploy your AI Studio app
+# Project Overview
 
-This contains everything you need to run your app locally.
+AI Privacy Policy & Terms Generator is a web-based platform that automatically creates customized privacy policies and terms of service based on a company’s business operations, data collection practices, and the jurisdictions they operate in.
 
-View your app in AI Studio: https://ai.studio/apps/f0699791-b3f4-47cf-a7ef-4dc8ef501e5d
+This project aims to simplify legal compliance for businesses by generating structured and easy-to-understand legal documents aligned with global data protection regulations.
 
-## Run Locally
+#  Features
 
-**Prerequisites:**  Node.js
+*  AI-generated Privacy Policies
+*  Terms of Service generation
+*  Multi-jurisdiction support (GDPR, CCPA, DPDP Act)
+*  Custom input based on business type and data usage
+*  Instant document generation
+*  Simple and user-friendly interface
+
+# Tech Stack
+
+* Frontend: HTML / CSS / JavaScript (or Streamlit UI)
+* Backend: Python
+* AI Integration: OpenAI API
+* Deployment: Streamlit Cloud / Web Hosting Platform
+
+#  How It Works
+
+1. User enters business details:
+
+   * Company name
+   * Industry
+   * Region (India, EU, USA)
+   * Data collected
+2. The system analyzes the input
+3. AI maps the input to relevant legal requirements
+4. Generates:
+
+   * Privacy Policy
+   * Terms of Service
+5. Displays the result instantly
+
+# Supported Regulations
+
+* GDPR (General Data Protection Regulation - EU)
+* CCPA (California Consumer Privacy Act - USA)
+* DPDP Act (India)
+
+#  Installation & Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd your-repo-name
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Add your OpenAI API key:
+
+   * Replace in code:
+
+     ```python
+     api_key = "YOUR_API_KEY"
+     ```
+
+5. Run the application:
+
+   ```bash
+   streamlit run app.py
+   ```
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+#  Screenshots
+
+(Add your app screenshots here)
+
+# Use Cases
+
+* Startups and small businesses
+* Web and mobile app developers
+* SaaS platforms
+* E-commerce websites
+
+#  Disclaimer
+
+This project generates AI-based legal documents for informational purposes only. It is recommended to consult a legal professional for official compliance.
+
+# Future Enhancements
+
+*  Download as PDF
+*  Multi-language support
+*  Automatic legal updates
+*  User authentication system
+*  Compliance scoring dashboard
+
+# Author
+
+* your name
+
+---
+
+##  Contribution
+
+Contributions are welcome! Feel free to fork the repository and submit pull requests.
+
+---
